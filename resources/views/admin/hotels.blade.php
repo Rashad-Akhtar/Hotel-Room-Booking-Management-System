@@ -70,7 +70,7 @@
                                     <td>{{$hotel->price}}</td>
                                     <td>{{$hotel->advance_amount}}</td>
                                     <td><img src="{{ asset($hotel->image1) }}" alt="image1" height="60" width="80"></td>
-                                    <td><img src="{{ asset($hotel->image1) }}" alt="image2" height="60" width="80"></td>
+                                    <td><img src="{{ asset($hotel->image2) }}" alt="image2" height="60" width="80"></td>
                                 <td><a href="{{ route('admin.hotels_update',['id'=>$hotel->id]) }}" class="btn btn-info btn-sm">Edit</a></td>
                                     <td><a href="{{ route('admin.hotels_delete',['id'=>$hotel->id]) }}" class="btn btn-danger btn-sm">Delete</a></td>
                                 </tr>
