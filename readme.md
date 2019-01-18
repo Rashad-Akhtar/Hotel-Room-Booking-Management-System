@@ -52,7 +52,7 @@ php artisan serve
 ```
 Now copy that localhost link and paste it in your browser .
 
-<p><b> Step - 10 :- </b> Now to access the admin account log in with password "123" and email "admin@gmail.com" </p>
+<p><b> Step - 10 :- </b> Now to access the admin account go to /admin/login and log in with password "123" and email "admin@gmail.com" </p>
 <br>
 
 
